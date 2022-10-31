@@ -1,5 +1,11 @@
 /**
  * INHERITANCE
+ * - Classes are templates for objects
+ * - Javasript calls a CONSTRUCTOR method when we create a new instance of a class
+ * - INHERITANCE is when we create a parent class with properties and methods that we can extend to child classes
+ * - We use the EXTENDS keyword to create a subclass
+ * - The SUPER keyword calls the constructor() of a parent class
+ * - Static methods are called on the class, but not on instances of the class
  */
 
 // PARENT CLASS
