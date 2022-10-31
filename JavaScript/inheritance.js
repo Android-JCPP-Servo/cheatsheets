@@ -16,6 +16,9 @@ class HospitalEmployee {
 
     // METHODS
     takeVacationDays(daysOff) { this._remainingVacationDays -= daysOff; }
+
+    // STATIC METHODS
+    static generatePassword() { return Math.floor(Math.random() * 10000); }
 }
 
 // CHILD CLASS(ES)
