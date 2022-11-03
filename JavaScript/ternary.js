@@ -4,24 +4,31 @@
 
 // GLOBAL VARIABLE
 let i = true;
+let a = 0;
+let b = 0;
+let c = 0;
+//...
 
 // Basic implementation
 console.log('Basic implementation');
 
-i == true ? console.log('I\'m TRUE!') : console.log('I\'m FALSE!');
+i == true ? a++ : a = 0;
+console.log(a);
 
 
 // Secondary implementation
 console.log('Secondary implementation');
 
-i == true ? (console.log('I\'m TRUE!'), console.log('I am also TRUE!')) : (console.log('I\'m FALSE!'), console.log('I am also FALSE!'));
+i == true ? (a++, b++) : (a = 0, b = 0);
+console.log(a, b);
 
 
 // Multi-level implementation
 console.log('Multi-level implementation');
 
-i == true ? (console.log('I\'m TRUE!'), console.log('Me too!'), console.log('Me three!')) : (console.log('I\'m FALSE!'), console.log('Me too'), console.log('Me three!'));
+i == true ? (a++, b++, c++) : (a = 0, b = 0, c = 0);
+console.log(a, b, c);
 
 
 // Failed implementation
-// i == true ? (console.log('Will this work?')), (console.log('If i is TRUE, then it should!')) : (console.log('This won\'t work!')), (console.log('I know that, and you know that.'));
+// i == true ? (a++), (b++) : (a = 0), (b = 0);
