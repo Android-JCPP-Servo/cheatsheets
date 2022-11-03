@@ -21,3 +21,7 @@ i == true ? (console.log('I\'m TRUE!'), console.log('I am also TRUE!')) : (conso
 console.log('Multi-level implementation');
 
 i == true ? (console.log('I\'m TRUE!'), console.log('Me too!'), console.log('Me three!')) : (console.log('I\'m FALSE!'), console.log('Me too'), console.log('Me three!'));
+
+
+// Failed implementation
+// i == true ? (console.log('Will this work?')), (console.log('If i is TRUE, then it should!')) : (console.log('This won\'t work!')), (console.log('I know that, and you know that.'));
